@@ -1,0 +1,4 @@
+divMain( tagA ) = centerDiv()
+
+
+tagA = color('Red')

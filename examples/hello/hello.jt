@@ -1,0 +1,6 @@
+import 'style.jt'
+
+let tagA = A-("oi")
+
+let divMain = Div-(tagA)
+

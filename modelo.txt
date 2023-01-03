@@ -1,0 +1,35 @@
+# Como faz o html?
+
+Cada tag terá seu valor reservado com "-' Na frente, e o que for adiciona a ela vai dentro do "()"
+
+O armazenamento de valores será baseado em variavel com o token reservado "let"
+
+Exemplo:
+
+let tagA = A-("oi")
+
+let divMain = Div-(tagA)
+
+Nome das variaveis pode ser qualquer um
+
+
+# Como vai funciona o style?
+
+A sintaxe do style vai ser, onde você usar nome da variavel, e defini as função reservadas para determinadas situação.
+
+Exemplo centraliza uma tag na div main, você coloca as tag dentro do (), e adiciona as função reservadas para o que quer fazer com ela.
+
+divMain({
+   tagA
+}) = centerDiv()
+
+Caso queira colocar mais style na tag, você coloca o nome da variavel da tag e a função que quer que ela faça.
+
+tagA = color('Red')
+
+
+# Como funcionara o JS?
+
+Pensando ainda.
+
+
